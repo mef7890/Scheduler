@@ -96,17 +96,8 @@ public class AddAppointmentHelperController implements Initializable {
         SetTableView.setAllStudentsTableView(studentsTableView, studentsTableCol);
         SetTableView.setAllTutorsTableView(tutorsTableView, tutorsTableCol);
 
-        studentsTableView.getSelectionModel().select(0); // preselect first student in list
-        tutorsTableView.getSelectionModel().select(0); // preselect first tutor in list
-
-        datePicker.setValue(LocalDate.now().plusDays(1)); // preselect tomorrow's date
-        startHour.setValue(11); // todo delete
-        startMinute.setValue("15"); // todo delete
-        endHour.setValue(13);// todo delete
-        endMinute.setValue("30");// todo delete
-        subjectFocusTextField.setText("German"); // todo delete
-
-//        saveButton.setDefaultButton(true);
+//        studentsTableView.getSelectionModel().select(0); // preselect first student in list
+//        tutorsTableView.getSelectionModel().select(0); // preselect first tutor in list
 
     }
 

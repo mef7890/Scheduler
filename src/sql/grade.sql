@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS grade(
+	grade_id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    person_id BIGINT NOT NULL UNIQUE,
+    FOREIGN KEY(person_id) REFERENCES person(person_id),
+    grade VARCHAR(20)
+    );

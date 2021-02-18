@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS user_role(
+	role_id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    role_name VARCHAR(20)
+    );

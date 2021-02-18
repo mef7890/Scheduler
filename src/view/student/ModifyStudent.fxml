@@ -84,7 +84,7 @@
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="studentFirstNameTextField" promptText="Student First Name" style="-fx-background-radius: 30;" text="new" GridPane.columnIndex="1">
+                        <TextField fx:id="studentFirstNameTextField" promptText="Student First Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -92,12 +92,12 @@
                               <Insets />
                            </GridPane.margin>
                         </TextField>
-                        <TextField fx:id="street1TextField" prefHeight="31.0" prefWidth="201.0" promptText="Street" style="-fx-background-radius: 30;" text="test" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="street1TextField" prefHeight="31.0" prefWidth="201.0" promptText="Street" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                         <TextField fx:id="street2TextField" promptText="Street 2" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                        <TextField fx:id="cityTextField" promptText="City" style="-fx-background-radius: 30;" text="city" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <TextField fx:id="cityTextField" promptText="City" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                         <HBox alignment="CENTER_LEFT" GridPane.columnIndex="1" GridPane.rowIndex="6">
                            <children>
-                              <TextField fx:id="studentZipTextField" maxWidth="-Infinity" prefHeight="31.0" prefWidth="82.0" promptText="Zip Code" style="-fx-background-radius: 30;" text="99999" />
+                              <TextField fx:id="studentZipTextField" maxWidth="-Infinity" prefHeight="31.0" prefWidth="82.0" promptText="Zip Code" style="-fx-background-radius: 30;" />
                               <Label prefHeight="20.0" prefWidth="52.0" text="State:" textFill="#fcfcfc">
                                  <font>
                                     <Font name="Century Gothic Bold" size="16.0" />
@@ -106,10 +106,10 @@
                                     <Insets left="10.0" />
                                  </HBox.margin>
                               </Label>
-                              <TextField fx:id="studentStateTextField" alignment="CENTER" maxWidth="-Infinity" prefHeight="31.0" prefWidth="66.0" promptText="State" style="-fx-background-radius: 30;" text="WA" />
+                              <TextField fx:id="studentStateTextField" alignment="CENTER" maxWidth="-Infinity" prefHeight="31.0" prefWidth="66.0" promptText="State" style="-fx-background-radius: 30;" />
                            </children>
                         </HBox>
-                        <TextField fx:id="phoneTextField" promptText="000-000-0000" style="-fx-background-radius: 30;" text="555-555-5555" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                        <TextField fx:id="phoneTextField" promptText="000-000-0000" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="8">
                            <GridPane.margin>
                               <Insets />
                            </GridPane.margin>
@@ -120,13 +120,13 @@
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="platformTextField" promptText="Platform Name" style="-fx-background-radius: 30;" text="platform" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <TextField fx:id="platformTextField" promptText="Platform Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
                         <Label text="Handle:" textFill="#fcfcfc" GridPane.rowIndex="10">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="handleTextField" promptText="Handle" style="-fx-background-radius: 30;" text="handle" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <TextField fx:id="handleTextField" promptText="Handle" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="10" />
                         <Label text="Start Date:" textFill="#fcfcfc" GridPane.rowIndex="12">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
@@ -138,7 +138,7 @@
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="studentLastNameTextField" promptText="Student Last Name" style="-fx-background-radius: 30;" text="test last" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <TextField fx:id="studentLastNameTextField" promptText="Student Last Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -148,7 +148,7 @@
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="studentGradeTextField" promptText="Student Grade" style="-fx-background-radius: 30;" text="8th grade" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                        <TextField fx:id="studentGradeTextField" promptText="Student Grade" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -158,7 +158,7 @@
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="studentEmailTextField" promptText="Student Email" style="-fx-background-radius: 30;" text="test@email.com" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <TextField fx:id="studentEmailTextField" promptText="Student Email" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                         <Label prefHeight="25.0" prefWidth="72.0" text="Status" textFill="#fcfcfc" GridPane.rowIndex="13">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
@@ -248,7 +248,7 @@
                                     <Font name="Century Gothic Bold" size="16.0" />
                                  </font>
                               </Label>
-                              <TextField fx:id="contactFirstNameTextField" promptText="Contact First Name" style="-fx-background-radius: 30;" text="test contact" GridPane.columnIndex="1">
+                              <TextField fx:id="contactFirstNameTextField" promptText="Contact First Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1">
                                  <opaqueInsets>
                                     <Insets />
                                  </opaqueInsets>
@@ -256,12 +256,12 @@
                                     <Insets />
                                  </GridPane.margin>
                               </TextField>
-                              <TextField fx:id="contactStreet1TextField" prefHeight="31.0" prefWidth="201.0" promptText="Street" style="-fx-background-radius: 30;" text="123 test" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <TextField fx:id="contactStreet1TextField" prefHeight="31.0" prefWidth="201.0" promptText="Street" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                               <TextField fx:id="contactStreet2TextField" promptText="Street 2" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                              <TextField fx:id="contactCityTextField" promptText="City" style="-fx-background-radius: 30;" text="Salem" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                              <TextField fx:id="contactCityTextField" promptText="City" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                               <HBox alignment="CENTER_LEFT" GridPane.columnIndex="1" GridPane.rowIndex="8">
                                  <children>
-                                    <TextField fx:id="contactZipTextField" maxWidth="-Infinity" prefHeight="31.0" prefWidth="83.0" promptText="Zip Code" style="-fx-background-radius: 30;" text="98765" />
+                                    <TextField fx:id="contactZipTextField" maxWidth="-Infinity" prefHeight="31.0" prefWidth="83.0" promptText="Zip Code" style="-fx-background-radius: 30;" />
                                     <Label alignment="CENTER" prefHeight="20.0" prefWidth="52.0" text="State:" textFill="#fcfcfc">
                                        <font>
                                           <Font name="Century Gothic Bold" size="16.0" />
@@ -270,7 +270,7 @@
                                           <Insets left="10.0" right="2.0" />
                                        </HBox.margin>
                                     </Label>
-                                    <TextField fx:id="contactStateTextField" alignment="CENTER" maxWidth="-Infinity" prefHeight="31.0" prefWidth="66.0" promptText="State" style="-fx-background-radius: 30;" text="OR" />
+                                    <TextField fx:id="contactStateTextField" alignment="CENTER" maxWidth="-Infinity" prefHeight="31.0" prefWidth="66.0" promptText="State" style="-fx-background-radius: 30;" />
                                  </children>
                               </HBox>
                               <Label text="Relationship:" textFill="#fcfcfc" GridPane.rowIndex="2">
@@ -278,7 +278,7 @@
                                     <Font name="Century Gothic Bold" size="16.0" />
                                  </font>
                               </Label>
-                              <TextField fx:id="relationshipTextField" promptText="Relationship" style="-fx-background-radius: 30;" text="Mother" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="relationshipTextField" promptText="Relationship" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                               <Label text="Phone #" textFill="#fcfcfc" GridPane.rowIndex="3">
                                  <font>
                                     <Font name="Century Gothic Bold" size="16.0" />
@@ -289,14 +289,14 @@
                                     <Font name="Century Gothic Bold" size="16.0" />
                                  </font>
                               </Label>
-                              <TextField fx:id="contactPhoneTextField" promptText="Contact Phone" style="-fx-background-radius: 30;" text="222-000-3698" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                              <TextField fx:id="contactEmailTextField" promptText="Contact Email" style="-fx-background-radius: 30;" text="test contact!@test.com" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <TextField fx:id="contactPhoneTextField" promptText="Contact Phone" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextField fx:id="contactEmailTextField" promptText="Contact Email" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                               <Label text="Last Name:" textFill="#fcfcfc" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="Century Gothic Bold" size="16.0" />
                                  </font>
                               </Label>
-                              <TextField fx:id="contactLastNameTextField" promptText="Contact Last Name" style="-fx-background-radius: 30;" text="test contact" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                              <TextField fx:id="contactLastNameTextField" promptText="Contact Last Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                  <opaqueInsets>
                                     <Insets />
                                  </opaqueInsets>

@@ -24,12 +24,12 @@
             <children>
                 <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="75.0" prefWidth="450.0">
                     <children>
-                        <TextField fx:id="LoginUsernameTxt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" promptText="Username" style="-fx-background-radius: 30;" text="admin" />
+                        <TextField fx:id="LoginUsernameTxt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" promptText="Username" style="-fx-background-radius: 30;" />
                     </children>
                 </HBox>
                 <HBox alignment="CENTER" prefHeight="75.0" prefWidth="450.0">
                     <children>
-                        <PasswordField fx:id="LoginPasswordField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" promptText="Password" style="-fx-background-radius: 30;" text="admin" />
+                        <PasswordField fx:id="LoginPasswordField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" promptText="Password" style="-fx-background-radius: 30;" />
                     </children>
                 </HBox>
                 <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="75.0" prefWidth="250.0">

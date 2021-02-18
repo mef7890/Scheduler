@@ -32,13 +32,13 @@ public class Tests {
 
     public static void main(String[] args) {
 
-//        runAllTests();
-        try {
-            PropertiesFileCreator propertiesFileCreator = new PropertiesFileCreator();
-            propertiesFileCreator.writeProperties();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        runAllTests();
+//        try {
+//            PropertiesFileCreator propertiesFileCreator = new PropertiesFileCreator();
+//            propertiesFileCreator.writeProperties();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
     }
 }

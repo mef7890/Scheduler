@@ -78,8 +78,12 @@ public class TutorViewStudentController implements Initializable {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE, MMM dd, yyyy");
             LocalDateTime nextAptWTutor = studentDAO.getStudentsNextAptWithTutor(TutorMainController.tutor.getPersonId(),
                     student.getPersonId());
-            String formattedLDT = formatter.format(nextAptWTutor);
-            nextAptTextField.setText(formattedLDT);
+            if (nextAptWTutor.isAfter(LocalDateTime.now())) {
+                String formattedLDT = formatter.format(nextAptWTutor);
+                nextAptTextField.setText(formattedLDT);
+            } else {
+                nextAptTextField.setText("N/A");
+            }
 
         } catch (NullPointerException e) {
             nextAptTextField.setText("N/A");

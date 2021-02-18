@@ -97,6 +97,11 @@
                               <Insets />
                            </GridPane.margin>
                         </TextField>
+                        <TextField fx:id="tutorGradeTextField" editable="false" promptText="Tutor Grade" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </TextField>
                         <TextField fx:id="street1TextField" editable="false" prefHeight="31.0" prefWidth="201.0" promptText="Street 1" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                         <TextField fx:id="street2TextField" editable="false" promptText="Street 2" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                         <TextField fx:id="cityTextField" editable="false" promptText="City" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
@@ -114,11 +119,17 @@
                               <TextField fx:id="tutorStateTextField" alignment="CENTER" editable="false" maxWidth="-Infinity" prefHeight="31.0" prefWidth="66.0" promptText="State" style="-fx-background-radius: 30;" />
                            </children>
                         </HBox>
+                        <TextField fx:id="tutorEmailTextField" editable="false" promptText="Tutor Email" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                         <TextField fx:id="phoneTextField" editable="false" promptText="000-000-0000" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="7">
                            <GridPane.margin>
                               <Insets />
                            </GridPane.margin>
                         </TextField>
+                        <TextField fx:id="platformTextField" editable="false" promptText="Platform Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <TextField fx:id="handleTextField" editable="false" promptText="Handle" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <DatePicker fx:id="birthdayDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <DatePicker fx:id="startDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <TextField fx:id="rateTextField" editable="false" promptText="\$ 00.00" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="12" />
                         <HBox alignment="CENTER" prefHeight="50.0" prefWidth="213.0" GridPane.columnIndex="1" GridPane.rowIndex="13">
                            <children>
                               <RadioButton fx:id="activeRB" disable="true" mnemonicParsing="false" text="Active" textFill="WHITE">
@@ -139,47 +150,36 @@
                               </RadioButton>
                            </children>
                         </HBox>
-                        <DatePicker fx:id="birthdayDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="10" />
                         <Label text="Platform:" textFill="#fcfcfc" GridPane.rowIndex="8">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="platformTextField" editable="false" promptText="Platform Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
                         <Label text="Handle:" textFill="#fcfcfc" GridPane.rowIndex="9">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="handleTextField" editable="false" promptText="Handle" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
                         <Label text="Start Date:" textFill="#fcfcfc" GridPane.rowIndex="11">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <DatePicker fx:id="startDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="11" />
                         <Label text="Grade" textFill="#fcfcfc" GridPane.rowIndex="1">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="tutorGradeTextField" editable="false" promptText="Tutor Grade" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="1">
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                        </TextField>
                         <Label text="Email:" textFill="#fcfcfc" GridPane.rowIndex="6">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="tutorEmailTextField" editable="false" promptText="Tutor Email" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                         <Label text="Rate:" textFill="#fcfcfc" GridPane.rowIndex="12">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="rateTextField" editable="false" promptText="\$ 00.00" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="12" />
                      </children>
                      <padding>
                         <Insets left="20.0" />

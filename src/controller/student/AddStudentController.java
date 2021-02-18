@@ -298,7 +298,6 @@ public class AddStudentController implements Initializable { // todo once testin
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        birthdayDatePicker.setValue(LocalDate.now()); // todo del
         startDatePicker.setValue(LocalDate.now());
         saveButton.setDefaultButton(true);
 

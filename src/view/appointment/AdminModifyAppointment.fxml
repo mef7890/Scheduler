@@ -129,30 +129,6 @@
                             </rowConstraints>
                             <children>
                                 <DatePicker fx:id="datePicker" prefHeight="31.0" prefWidth="291.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                                <Label text="Select Date: " GridPane.rowIndex="1">
-                                    <font>
-                                        <Font name="Century Gothic Bold" size="18.0" />
-                                    </font>
-                                    <GridPane.margin>
-                                        <Insets />
-                                    </GridPane.margin>
-                                </Label>
-                                <Label prefHeight="23.0" prefWidth="158.0" text="Select Start Time:" GridPane.rowIndex="2">
-                                    <font>
-                                        <Font name="Century Gothic Bold" size="18.0" />
-                                    </font>
-                                    <GridPane.margin>
-                                        <Insets />
-                                    </GridPane.margin>
-                                </Label>
-                                <Label prefHeight="23.0" prefWidth="160.0" text="Select End Time:" GridPane.rowIndex="3">
-                                    <font>
-                                        <Font name="Century Gothic Bold" size="18.0" />
-                                    </font>
-                                    <GridPane.margin>
-                                        <Insets />
-                                    </GridPane.margin>
-                                </Label>
                                 <HBox prefHeight="34.0" prefWidth="297.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                     <children>
                                         <ChoiceBox fx:id="startHour" maxWidth="-Infinity" prefWidth="150.0" style="-fx-background-radius: 30; -fx-border-radius: 30;">
@@ -191,12 +167,36 @@
                                         </ChoiceBox>
                                     </children>
                                 </HBox>
+                        <TextField fx:id="subjectFocusTextField" promptText="Subject" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                <Label text="Select Date: " GridPane.rowIndex="1">
+                                    <font>
+                                        <Font name="Century Gothic Bold" size="18.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets />
+                                    </GridPane.margin>
+                                </Label>
+                                <Label prefHeight="23.0" prefWidth="158.0" text="Select Start Time:" GridPane.rowIndex="2">
+                                    <font>
+                                        <Font name="Century Gothic Bold" size="18.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets />
+                                    </GridPane.margin>
+                                </Label>
+                                <Label prefHeight="23.0" prefWidth="160.0" text="Select End Time:" GridPane.rowIndex="3">
+                                    <font>
+                                        <Font name="Century Gothic Bold" size="18.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets />
+                                    </GridPane.margin>
+                                </Label>
                         <Label prefHeight="23.0" prefWidth="160.0" text="Subject Focus:" GridPane.rowIndex="4">
                            <font>
                               <Font name="Century Gothic Bold" size="18.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="subjectFocusTextField" promptText="Subject" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                             </children>
                         </GridPane>
                             <TextArea fx:id="appointmentNotesTextArea" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="169.0" prefWidth="445.0" promptText="Appointment Notes..." style="-fx-border-color: grey;" wrapText="true">

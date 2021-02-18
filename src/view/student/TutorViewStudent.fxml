@@ -51,7 +51,6 @@
                   <Font size="20.0" />
                </font>
             </Label>
-            <TextField fx:id="ageTextField" editable="false" prefWidth="202.0" promptText="Numeric Digits Only" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="nameTextField" editable="false" promptText="Student Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <opaqueInsets>
                   <Insets />
@@ -60,25 +59,26 @@
                   <Insets />
                </GridPane.margin>
             </TextField>
+            <TextField fx:id="ageTextField" editable="false" prefWidth="202.0" promptText="Numeric Digits Only" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="gradeTextField" editable="false" prefWidth="202.0" promptText="Grade" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Label text="Platform:" textFill="WHITE" GridPane.rowIndex="4">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Label>
+            <TextField fx:id="platformTextField" editable="false" prefWidth="202.0" promptText="Platform" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="handleTextField" editable="false" prefWidth="202.0" promptText="Handle" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField fx:id="nextAptTextField" editable="false" prefWidth="202.0" promptText="Next Appointment Together" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
             <Label text="Handle:" textFill="WHITE" GridPane.rowIndex="5">
                <font>
                   <Font size="20.0" />
                </font>
             </Label>
-            <TextField fx:id="platformTextField" editable="false" prefWidth="202.0" promptText="Platform" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <TextField fx:id="handleTextField" editable="false" prefWidth="202.0" promptText="Handle" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="Platform:" textFill="WHITE" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
             <Label text="Next Appointment:" textFill="WHITE" GridPane.rowIndex="6">
                <font>
                   <Font size="20.0" />
                </font>
             </Label>
-            <TextField fx:id="nextAptTextField" editable="false" prefWidth="202.0" promptText="Next Appointment Together" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
          </children>
          <padding>
             <Insets left="20.0" right="20.0" />

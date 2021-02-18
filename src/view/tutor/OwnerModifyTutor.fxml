@@ -98,6 +98,16 @@
                               <Insets />
                            </GridPane.margin>
                         </TextField>
+                        <TextField fx:id="tutorLastNameTextField" promptText="Tutor Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </TextField>
+                        <TextField fx:id="tutorGradeTextField" promptText="Tutor Grade" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </TextField>
                         <TextField fx:id="street1TextField" prefHeight="31.0" prefWidth="201.0" promptText="Street 1" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                         <TextField fx:id="street2TextField" promptText="Street 2" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                         <TextField fx:id="cityTextField" promptText="City" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
@@ -115,11 +125,17 @@
                               <TextField fx:id="tutorStateTextField" alignment="CENTER" maxWidth="-Infinity" prefHeight="31.0" prefWidth="66.0" promptText="State" style="-fx-background-radius: 30;" />
                            </children>
                         </HBox>
+                        <TextField fx:id="tutorEmailTextField" promptText="Tutor Email" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                         <TextField fx:id="phoneTextField" promptText="000-000-0000" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="8">
                            <GridPane.margin>
                               <Insets />
                            </GridPane.margin>
                         </TextField>
+                        <TextField fx:id="platformTextField" promptText="Platform Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <TextField fx:id="handleTextField" promptText="Handle" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <DatePicker fx:id="birthdayDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <DatePicker fx:id="startDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                        <TextField fx:id="rateTextField" promptText="\$ 00.00" style="-fx-background-radius: 30;" text="\$" GridPane.columnIndex="1" GridPane.rowIndex="13" />
                         <HBox alignment="CENTER" prefHeight="50.0" prefWidth="213.0" GridPane.columnIndex="1" GridPane.rowIndex="14">
                            <children>
                               <RadioButton fx:id="activeRB" mnemonicParsing="false" selected="true" text="Active" textFill="WHITE">
@@ -140,57 +156,41 @@
                               </RadioButton>
                            </children>
                         </HBox>
-                        <DatePicker fx:id="birthdayDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="11" />
                         <Label text="Platform:" textFill="#fcfcfc" GridPane.rowIndex="9">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="platformTextField" promptText="Platform Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
                         <Label text="Handle:" textFill="#fcfcfc" GridPane.rowIndex="10">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="handleTextField" promptText="Handle" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="10" />
-                        <Label text="Start Date:" textFill="#fcfcfc" GridPane.rowIndex="12">
-                           <font>
-                              <Font name="Century Gothic Bold" size="16.0" />
-                           </font>
-                        </Label>
-                        <DatePicker fx:id="startDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="12" />
-                        <Label text="Grade" textFill="#fcfcfc" GridPane.rowIndex="2">
-                           <font>
-                              <Font name="Century Gothic Bold" size="16.0" />
-                           </font>
-                        </Label>
-                        <TextField fx:id="tutorGradeTextField" promptText="Tutor Grade" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="2">
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                        </TextField>
                         <Label text="Email:" textFill="#fcfcfc" GridPane.rowIndex="7">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="tutorEmailTextField" promptText="Tutor Email" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Label text="Start Date:" textFill="#fcfcfc" GridPane.rowIndex="12">
+                           <font>
+                              <Font name="Century Gothic Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label text="Grade" textFill="#fcfcfc" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="Century Gothic Bold" size="16.0" />
+                           </font>
+                        </Label>
                         <Label text="Rate:" textFill="#fcfcfc" GridPane.rowIndex="13">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="rateTextField" promptText="\$ 00.00" style="-fx-background-radius: 30;" text="\$" GridPane.columnIndex="1" GridPane.rowIndex="13" />
                         <Label text="Last Name:" textFill="#fcfcfc" GridPane.rowIndex="1">
                            <font>
                               <Font name="Century Gothic Bold" size="16.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="tutorLastNameTextField" promptText="Tutor Name" style="-fx-background-radius: 30;" GridPane.columnIndex="1" GridPane.rowIndex="1">
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                        </TextField>
                      </children>
                      <padding>
                         <Insets left="20.0" />

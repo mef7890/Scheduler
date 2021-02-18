@@ -15,16 +15,7 @@ import java.net.URL;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
-public class AddTutorController implements Initializable { // todo can remove initializable once done testing
-
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-        birthdayDatePicker.setValue(LocalDate.now()); // todo del
-        startDatePicker.setValue(LocalDate.now()); // todo del
-        rateTextField.setText("$12.00"); // todo del
-        saveButton.setDefaultButton(true);
-
-    }
+public class AddTutorController {
 
     @FXML
     private TextField tutorFirstNameTextField;

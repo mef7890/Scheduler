@@ -138,12 +138,6 @@ public class ModifyTutorController extends AddTutorController {
         return activeStatus;
     }
 
-
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-        // todo can remove once initializable removed from add tutor
-    }
-
     protected void updateTutor(ActionEvent event) {
         try {
             setLocalVariables(); // from add tutor controller
